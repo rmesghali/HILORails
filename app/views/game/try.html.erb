@@ -1,0 +1,37 @@
+
+  <link type="text/css" rel="stylesheet" href="assets/stylesheets/try.css"/>
+<div class="top">
+  <span id="heading">Welcome to our HiLo Game: <%= @user_name%> </span>
+</div>
+<hr>
+
+<div class="forms">
+  <form>
+    <label>Please submit your Username</label>
+  </br>
+    <input type="name" name="user_name"/>
+    <!-- <input type="submit" value="Submit Username"/> -->
+  </br>
+  </br>
+  </br>
+<hr>
+
+
+  <form action = "/answers" method = "get">
+    <label for="guess_id" >Please submit your Guess</label>
+  </br>
+    <input type="number" name="guess" id="guess_id" />
+    <input type="submit" value="Submit Guess" />
+  </form>
+</div>
+
+</br>
+</br>
+</br>
+</br>
+
+
+ <div id="results">
+   Your guess is <%= @guess %>
+ </br>
+   <%= @result_string %> </div>

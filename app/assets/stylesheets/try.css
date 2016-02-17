@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+.top {
+  text-align: center;
+  color: white;
+}
+#heading {
+  font-size: 52px;
+  font-family: fantasy;
+  color: white;
+}
+.forms {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+#results {
+  font-family: fantasy;
+  font-size: 24px;
+  text-align: center;
+  color:white;
+}
